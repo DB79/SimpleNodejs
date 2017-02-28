@@ -19,7 +19,7 @@ describe('add a entry into the index', function () {
     done();
   });
   it('2+2 should be equal to 4', function (done) {
-    expect(func.addNumbers(2, 2)).to.equal(14);
+    expect(func.addNumbers(2, 2)).to.equal(4);
     done();
   });
 });
